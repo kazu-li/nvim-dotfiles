@@ -13,4 +13,4 @@ vim.keymap.set({ "n", "v" }, "<leader>t", ":Neotree<CR>", { silent = true })
 
 vim.keymap.set("n", "<leader>cf", function()
 	require("conform").format()
-end, { desc = "Forman file" })
+end, { desc = "Format file" })
